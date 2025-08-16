@@ -1,9 +1,11 @@
 <?php
+
 /**
  * Playground
  */
 
 declare(strict_types=1);
+
 namespace Database\Factories\Playground\Admin\Models;
 
 use Illuminate\Database\Eloquent\Factories\Factory;

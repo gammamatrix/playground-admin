@@ -4,8 +4,11 @@ declare(strict_types=1);
 /**
  * Playground
  */
+
 namespace Playground\Admin\Models;
 
+use Database\Factories\Playground\Admin\Models\SettingFactory;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Playground\Models\Model;
 
 /**
@@ -13,13 +16,11 @@ use Playground\Models\Model;
  */
 class Setting extends Model
 {
+    /** @use HasFactory<SettingFactory> */
+    use HasFactory;
+
     protected $table = 'admin_settings';
 
-    /**
-     * The default values for attributes.
-     *
-     * @var array<string, mixed>
-     */
     protected $attributes = [
         'created_by_id' => null,
         'modified_by_id' => null,
@@ -80,11 +81,6 @@ class Setting extends Model
         'sources' => '{}',
     ];
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array<int, string>
-     */
     protected $fillable = [
         'owned_by_id',
         'parent_id',

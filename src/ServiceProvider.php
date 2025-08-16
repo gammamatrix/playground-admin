@@ -4,17 +4,19 @@ declare(strict_types=1);
 /**
  * Playground
  */
+
 namespace Playground\Admin;
 
 use Illuminate\Foundation\Console\AboutCommand;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider;
+use Illuminate\Support\Facades\App;
 
 /**
  * \Playground\Admin\ServiceProvider
  */
 class ServiceProvider extends AuthServiceProvider
 {
-    public const VERSION = '73.0.0';
+    public const string VERSION = '73.0.0';
 
     public string $package = 'playground-admin';
 
@@ -33,7 +35,7 @@ class ServiceProvider extends AuthServiceProvider
 
         if (! empty($config['load']) && is_array($config['load'])) {
 
-            if ($this->app->runningInConsole()) {
+            if (App::runningInConsole()) {
                 // Publish configuration
                 $this->publishes([
                     sprintf('%1$s/config/%2$s.php', dirname(__DIR__), $this->package) => config_path(sprintf('%1$s.php', $this->package)),

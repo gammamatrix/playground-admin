@@ -2,30 +2,21 @@
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
   <file name="ServiceProvider.php" path="/">
     <totals>
-      <lines total="105" comments="24" code="81" executable="31" executed="31" percent="100.00"/>
+      <lines total="107" comments="24" code="83" executable="31" executed="31" percent="100.00"/>
       <methods count="5" tested="5" percent="100.00"/>
       <functions count="0" tested="0" percent="0"/>
       <classes count="1" tested="1" percent="100.00"/>
       <traits count="0" tested="0" percent="0"/>
     </totals>
-    <class name="Playground\Admin\ServiceProvider" start="15" executable="31" executed="31" crap="15">
+    <class name="Playground\Admin\ServiceProvider" start="17" executable="31" executed="31" crap="15">
       <namespace name="Playground\Admin"/>
-      <method name="boot" signature="boot()" start="27" end="55" crap="6" executable="11" executed="11" coverage="100"/>
-      <method name="register" signature="register(): void" start="60" end="66" crap="1" executable="4" executed="4" coverage="100"/>
-      <method name="publishMigrations" signature="publishMigrations(): void" start="71" end="82" crap="2" executable="6" executed="6" coverage="100"/>
-      <method name="about" signature="about(): void" start="84" end="98" crap="5" executable="9" executed="9" coverage="100"/>
-      <method name="version" signature="version(): string" start="100" end="103" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="boot" signature="boot()" start="29" end="57" crap="6" executable="11" executed="11" coverage="100"/>
+      <method name="register" signature="register(): void" start="62" end="68" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="publishMigrations" signature="publishMigrations(): void" start="73" end="84" crap="2" executable="6" executed="6" coverage="100"/>
+      <method name="about" signature="about(): void" start="86" end="100" crap="5" executable="9" executed="9" coverage="100"/>
+      <method name="version" signature="version(): string" start="102" end="105" crap="1" executable="1" executed="1" coverage="100"/>
     </class>
     <coverage>
-      <line nr="32">
-        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
-        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
-        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
-        <covered by="Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0"/>
-        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
-        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
-        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
-      </line>
       <line nr="34">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
@@ -53,15 +44,6 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="39">
-        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
-        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
-        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
-        <covered by="Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0"/>
-        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
-        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
-        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
-      </line>
       <line nr="40">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
@@ -71,7 +53,7 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="43">
+      <line nr="41">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -80,7 +62,7 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="46">
+      <line nr="42">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -89,10 +71,7 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="47">
-        <covered by="Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0"/>
-      </line>
-      <line nr="52">
+      <line nr="45">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -101,7 +80,7 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="53">
+      <line nr="48">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -110,7 +89,10 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="62">
+      <line nr="49">
+        <covered by="Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0"/>
+      </line>
+      <line nr="54">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -119,7 +101,7 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="63">
+      <line nr="55">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -137,7 +119,7 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="73">
+      <line nr="65">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -146,7 +128,16 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="76">
+      <line nr="66">
+        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
+        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
+        <covered by="Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0"/>
+        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
+        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
+      </line>
+      <line nr="75">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -164,7 +155,7 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="81">
+      <line nr="80">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -173,7 +164,7 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="86">
+      <line nr="83">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -182,7 +173,7 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="87">
+      <line nr="88">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -218,15 +209,6 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="94">
-        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
-        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
-        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
-        <covered by="Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0"/>
-        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
-        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
-        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
-      </line>
       <line nr="95">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
@@ -254,7 +236,7 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="102">
+      <line nr="98">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -263,7 +245,7 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="65">
+      <line nr="99">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -272,7 +254,16 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
-      <line nr="75">
+      <line nr="104">
+        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
+        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
+        <covered by="Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0"/>
+        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
+        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
+      </line>
+      <line nr="67">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -282,6 +273,15 @@
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
       </line>
       <line nr="77">
+        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
+        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
+        <covered by="Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0"/>
+        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
+        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create"/>
+      </line>
+      <line nr="79">
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make"/>
@@ -314,36 +314,43 @@
       <line no="6">
         <token name="T_DOC_COMMENT"> */</token>
       </line>
-      <line no="7">
+      <line no="7"/>
+      <line no="8">
         <token name="T_NAMESPACE">namespace</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_NAME_QUALIFIED">Playground\Admin</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="8"/>
-      <line no="9">
+      <line no="9"/>
+      <line no="10">
         <token name="T_USE">use</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_NAME_QUALIFIED">Illuminate\Foundation\Console\AboutCommand</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="10">
+      <line no="11">
         <token name="T_USE">use</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_NAME_QUALIFIED">Illuminate\Foundation\Support\Providers\AuthServiceProvider</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="11"/>
       <line no="12">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Illuminate\Support\Facades\App</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="13"/>
+      <line no="14">
         <token name="T_DOC_COMMENT">/**</token>
       </line>
-      <line no="13">
+      <line no="15">
         <token name="T_DOC_COMMENT"> * \Playground\Admin\ServiceProvider</token>
       </line>
-      <line no="14">
+      <line no="16">
         <token name="T_DOC_COMMENT"> */</token>
       </line>
-      <line no="15">
+      <line no="17">
         <token name="T_CLASS">class</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">ServiceProvider</token>
@@ -352,14 +359,16 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">AuthServiceProvider</token>
       </line>
-      <line no="16">
+      <line no="18">
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="17">
+      <line no="19">
         <token name="T_WHITESPACE">    </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONST">const</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">VERSION</token>
         <token name="T_WHITESPACE"> </token>
@@ -368,8 +377,8 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">'73.0.0'</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="18"/>
-      <line no="19">
+      <line no="20"/>
+      <line no="21">
         <token name="T_WHITESPACE">    </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -382,27 +391,27 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">'playground-admin'</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="20"/>
-      <line no="21">
+      <line no="22"/>
+      <line no="23">
         <token name="T_WHITESPACE">    </token>
         <token name="T_DOC_COMMENT">/**</token>
       </line>
-      <line no="22">
+      <line no="24">
         <token name="T_DOC_COMMENT">     * Bootstrap any package services.</token>
       </line>
-      <line no="23">
+      <line no="25">
         <token name="T_DOC_COMMENT">     * Register any authentication / authorization services.</token>
       </line>
-      <line no="24">
+      <line no="26">
         <token name="T_DOC_COMMENT">     *</token>
       </line>
-      <line no="25">
+      <line no="27">
         <token name="T_DOC_COMMENT">     * @return void</token>
       </line>
-      <line no="26">
+      <line no="28">
         <token name="T_DOC_COMMENT">     */</token>
       </line>
-      <line no="27">
+      <line no="29">
         <token name="T_WHITESPACE">    </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -412,21 +421,21 @@
         <token name="T_OPEN_BRACKET">(</token>
         <token name="T_CLOSE_BRACKET">)</token>
       </line>
-      <line no="28">
+      <line no="30">
         <token name="T_WHITESPACE">    </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="29">
+      <line no="31">
         <token name="T_WHITESPACE">        </token>
         <token name="T_DOC_COMMENT">/**</token>
       </line>
-      <line no="30">
+      <line no="32">
         <token name="T_DOC_COMMENT">         * @var array&lt;string, mixed&gt; $config</token>
       </line>
-      <line no="31">
+      <line no="33">
         <token name="T_DOC_COMMENT">         */</token>
       </line>
-      <line no="32">
+      <line no="34">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$config</token>
         <token name="T_WHITESPACE"> </token>
@@ -440,8 +449,8 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="33"/>
-      <line no="34">
+      <line no="35"/>
+      <line no="36">
         <token name="T_WHITESPACE">        </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -469,16 +478,14 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="35"/>
-      <line no="36">
+      <line no="37"/>
+      <line no="38">
         <token name="T_WHITESPACE">            </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_BRACKET">(</token>
-        <token name="T_VARIABLE">$this</token>
-        <token name="T_OBJECT_OPERATOR">-&gt;</token>
-        <token name="T_STRING">app</token>
-        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">App</token>
+        <token name="T_DOUBLE_COLON">::</token>
         <token name="T_STRING">runningInConsole</token>
         <token name="T_OPEN_BRACKET">(</token>
         <token name="T_CLOSE_BRACKET">)</token>
@@ -486,11 +493,11 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="37">
+      <line no="39">
         <token name="T_WHITESPACE">                </token>
         <token name="T_COMMENT">// Publish configuration</token>
       </line>
-      <line no="38">
+      <line no="40">
         <token name="T_WHITESPACE">                </token>
         <token name="T_VARIABLE">$this</token>
         <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -498,7 +505,7 @@
         <token name="T_OPEN_BRACKET">(</token>
         <token name="T_OPEN_SQUARE">[</token>
       </line>
-      <line no="39">
+      <line no="41">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_STRING">sprintf</token>
         <token name="T_OPEN_BRACKET">(</token>
@@ -532,7 +539,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_COMMA">,</token>
       </line>
-      <line no="40">
+      <line no="42">
         <token name="T_WHITESPACE">                </token>
         <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_COMMA">,</token>
@@ -541,12 +548,12 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="41"/>
-      <line no="42">
+      <line no="43"/>
+      <line no="44">
         <token name="T_WHITESPACE">                </token>
         <token name="T_COMMENT">// Publish migrations</token>
       </line>
-      <line no="43">
+      <line no="45">
         <token name="T_WHITESPACE">                </token>
         <token name="T_VARIABLE">$this</token>
         <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -555,12 +562,12 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="44"/>
-      <line no="45">
+      <line no="46"/>
+      <line no="47">
         <token name="T_WHITESPACE">                </token>
         <token name="T_COMMENT">// Load migrations</token>
       </line>
-      <line no="46">
+      <line no="48">
         <token name="T_WHITESPACE">                </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -581,7 +588,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="47">
+      <line no="49">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_VARIABLE">$this</token>
         <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -596,20 +603,20 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="48">
+      <line no="50">
         <token name="T_WHITESPACE">                </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="49">
+      <line no="51">
         <token name="T_WHITESPACE">            </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="50">
+      <line no="52">
         <token name="T_WHITESPACE">        </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="51"/>
-      <line no="52">
+      <line no="53"/>
+      <line no="54">
         <token name="T_WHITESPACE">        </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -627,7 +634,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="53">
+      <line no="55">
         <token name="T_WHITESPACE">            </token>
         <token name="T_VARIABLE">$this</token>
         <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -636,26 +643,26 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="54">
+      <line no="56">
         <token name="T_WHITESPACE">        </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="55">
+      <line no="57">
         <token name="T_WHITESPACE">    </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="56"/>
-      <line no="57">
+      <line no="58"/>
+      <line no="59">
         <token name="T_WHITESPACE">    </token>
         <token name="T_DOC_COMMENT">/**</token>
       </line>
-      <line no="58">
+      <line no="60">
         <token name="T_DOC_COMMENT">     * Register any application services.</token>
       </line>
-      <line no="59">
+      <line no="61">
         <token name="T_DOC_COMMENT">     */</token>
       </line>
-      <line no="60">
+      <line no="62">
         <token name="T_WHITESPACE">    </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -668,18 +675,18 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">void</token>
       </line>
-      <line no="61">
+      <line no="63">
         <token name="T_WHITESPACE">    </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="62">
+      <line no="64">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$this</token>
         <token name="T_OBJECT_OPERATOR">-&gt;</token>
         <token name="T_STRING">mergeConfigFrom</token>
         <token name="T_OPEN_BRACKET">(</token>
       </line>
-      <line no="63">
+      <line no="65">
         <token name="T_WHITESPACE">            </token>
         <token name="T_STRING">dirname</token>
         <token name="T_OPEN_BRACKET">(</token>
@@ -689,31 +696,31 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">'/config/playground-admin.php'</token>
         <token name="T_COMMA">,</token>
       </line>
-      <line no="64">
+      <line no="66">
         <token name="T_WHITESPACE">            </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">'playground-admin'</token>
       </line>
-      <line no="65">
+      <line no="67">
         <token name="T_WHITESPACE">        </token>
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="66">
+      <line no="68">
         <token name="T_WHITESPACE">    </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="67"/>
-      <line no="68">
+      <line no="69"/>
+      <line no="70">
         <token name="T_WHITESPACE">    </token>
         <token name="T_DOC_COMMENT">/**</token>
       </line>
-      <line no="69">
+      <line no="71">
         <token name="T_DOC_COMMENT">     * Register any application services.</token>
       </line>
-      <line no="70">
+      <line no="72">
         <token name="T_DOC_COMMENT">     */</token>
       </line>
-      <line no="71">
+      <line no="73">
         <token name="T_WHITESPACE">    </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -726,11 +733,11 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">void</token>
       </line>
-      <line no="72">
+      <line no="74">
         <token name="T_WHITESPACE">    </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="73">
+      <line no="75">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$migrations</token>
         <token name="T_WHITESPACE"> </token>
@@ -740,20 +747,20 @@
         <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="74"/>
-      <line no="75">
+      <line no="76"/>
+      <line no="77">
         <token name="T_WHITESPACE">        </token>
         <token name="T_FOREACH">foreach</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_BRACKET">(</token>
         <token name="T_OPEN_SQUARE">[</token>
       </line>
-      <line no="76">
+      <line no="78">
         <token name="T_WHITESPACE">            </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">'2010_09_30_000000_create_admin_settings_table.php'</token>
         <token name="T_COMMA">,</token>
       </line>
-      <line no="77">
+      <line no="79">
         <token name="T_WHITESPACE">        </token>
         <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_WHITESPACE"> </token>
@@ -764,7 +771,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="78">
+      <line no="80">
         <token name="T_WHITESPACE">            </token>
         <token name="T_VARIABLE">$migrations</token>
         <token name="T_OPEN_SQUARE">[</token>
@@ -788,12 +795,12 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="79">
+      <line no="81">
         <token name="T_WHITESPACE">        </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="80"/>
-      <line no="81">
+      <line no="82"/>
+      <line no="83">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$this</token>
         <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -806,12 +813,12 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="82">
+      <line no="84">
         <token name="T_WHITESPACE">    </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="83"/>
-      <line no="84">
+      <line no="85"/>
+      <line no="86">
         <token name="T_WHITESPACE">    </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -824,11 +831,11 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">void</token>
       </line>
-      <line no="85">
+      <line no="87">
         <token name="T_WHITESPACE">    </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="86">
+      <line no="88">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$config</token>
         <token name="T_WHITESPACE"> </token>
@@ -842,7 +849,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="87">
+      <line no="89">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$config</token>
         <token name="T_WHITESPACE"> </token>
@@ -863,8 +870,8 @@
         <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="88"/>
-      <line no="89">
+      <line no="90"/>
+      <line no="91">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$load</token>
         <token name="T_WHITESPACE"> </token>
@@ -903,8 +910,8 @@
         <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="90"/>
-      <line no="91">
+      <line no="92"/>
+      <line no="93">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$version</token>
         <token name="T_WHITESPACE"> </token>
@@ -917,8 +924,8 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="92"/>
-      <line no="93">
+      <line no="94"/>
+      <line no="95">
         <token name="T_WHITESPACE">        </token>
         <token name="T_STRING">AboutCommand</token>
         <token name="T_DOUBLE_COLON">::</token>
@@ -936,7 +943,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_SQUARE">[</token>
       </line>
-      <line no="94">
+      <line no="96">
         <token name="T_WHITESPACE">            </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">'&lt;fg=yellow;options=bold&gt;Load&lt;/&gt; Migrations'</token>
         <token name="T_WHITESPACE"> </token>
@@ -961,7 +968,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">'&lt;fg=yellow;options=bold&gt;DISABLED&lt;/&gt;'</token>
         <token name="T_COMMA">,</token>
       </line>
-      <line no="95">
+      <line no="97">
         <token name="T_WHITESPACE">            </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">'Package'</token>
         <token name="T_WHITESPACE"> </token>
@@ -972,7 +979,7 @@
         <token name="T_STRING">package</token>
         <token name="T_COMMA">,</token>
       </line>
-      <line no="96">
+      <line no="98">
         <token name="T_WHITESPACE">            </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">'Version'</token>
         <token name="T_WHITESPACE"> </token>
@@ -981,18 +988,18 @@
         <token name="T_VARIABLE">$version</token>
         <token name="T_COMMA">,</token>
       </line>
-      <line no="97">
+      <line no="99">
         <token name="T_WHITESPACE">        </token>
         <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="98">
+      <line no="100">
         <token name="T_WHITESPACE">    </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="99"/>
-      <line no="100">
+      <line no="101"/>
+      <line no="102">
         <token name="T_WHITESPACE">    </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -1005,11 +1012,11 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">string</token>
       </line>
-      <line no="101">
+      <line no="103">
         <token name="T_WHITESPACE">    </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="102">
+      <line no="104">
         <token name="T_WHITESPACE">        </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
@@ -1018,14 +1025,14 @@
         <token name="T_STRING">VERSION</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="103">
+      <line no="105">
         <token name="T_WHITESPACE">    </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="104">
+      <line no="106">
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="105"/>
+      <line no="107"/>
     </source>
   </file>
 </phpunit>

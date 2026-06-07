@@ -9,15 +9,15 @@
 
 ##teamcity[testStarted name='test_model_instance' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php::\Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_instance' flowId='1']
 
-##teamcity[testFinished name='test_model_instance' duration='154' flowId='1']
+##teamcity[testFinished name='test_model_instance' duration='163' flowId='1']
 
 ##teamcity[testStarted name='test_verify_model_relationships' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php::\Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships' flowId='1']
 
-##teamcity[testFinished name='test_verify_model_relationships' duration='24' flowId='1']
+##teamcity[testFinished name='test_verify_model_relationships' duration='22' flowId='1']
 
 ##teamcity[testStarted name='test_model_factory_make' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php::\Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_model_factory_make' flowId='1']
 
-##teamcity[testFinished name='test_model_factory_make' duration='15' flowId='1']
+##teamcity[testFinished name='test_model_factory_make' duration='16' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Admin\Models\Setting\ModelTest' flowId='1']
 
@@ -29,7 +29,7 @@
 
 ##teamcity[testStarted name='test_command_about_displays_package_information_and_succeed_with_code_0' locationHint='php_qn:///app/tests/Feature/Console/Commands/About/CommandTest.php::\Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0' flowId='1']
 
-##teamcity[testFinished name='test_command_about_displays_package_information_and_succeed_with_code_0' duration='126' flowId='1']
+##teamcity[testFinished name='test_command_about_displays_package_information_and_succeed_with_code_0' duration='110' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest' flowId='1']
 
@@ -37,15 +37,15 @@
 
 ##teamcity[testStarted name='test_model_instance' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Feature/Models/ModelCase.php::\Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_model_instance' flowId='1']
 
-##teamcity[testFinished name='test_model_instance' duration='34' flowId='1']
+##teamcity[testFinished name='test_model_instance' duration='27' flowId='1']
 
 ##teamcity[testStarted name='test_verify_model_relationships' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Feature/Models/ModelCase.php::\Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships' flowId='1']
 
-##teamcity[testFinished name='test_verify_model_relationships' duration='143' flowId='1']
+##teamcity[testFinished name='test_verify_model_relationships' duration='119' flowId='1']
 
 ##teamcity[testStarted name='test_factory_create' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Feature/Models/ModelCase.php::\Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_factory_create' flowId='1']
 
-##teamcity[testFinished name='test_factory_create' duration='43' flowId='1']
+##teamcity[testFinished name='test_factory_create' duration='35' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Feature\Playground\Admin\Models\Setting\ModelTest' flowId='1']
 

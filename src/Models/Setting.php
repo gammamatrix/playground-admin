@@ -9,10 +9,101 @@ namespace Playground\Admin\Models;
 
 use Database\Factories\Playground\Admin\Models\SettingFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Support\Carbon;
 use Playground\Models\Model;
 
 /**
  * \Playground\Admin\Models\Setting
+ *
+ * @property string $id
+ * @property ?string $contact_type
+ * @property ?scalar $created_by_id
+ * @property ?scalar $modified_by_id
+ * @property ?scalar $owned_by_id
+ * @property ?string $matrix_id
+ * @property ?Carbon $created_at
+ * @property ?Carbon $updated_at
+ * @property ?Carbon $deleted_at
+ * @property ?Carbon $canceled_at
+ * @property ?Carbon $closed_at
+ * @property ?Carbon $embargo_at
+ * @property ?Carbon $fixed_at
+ * @property ?Carbon $planned_end_at
+ * @property ?Carbon $planned_start_at
+ * @property ?Carbon $postponed_at
+ * @property ?Carbon $published_at
+ * @property ?Carbon $released_at
+ * @property ?Carbon $resolved_at
+ * @property ?Carbon $resumed_at
+ * @property ?Carbon $suspended_at
+ * @property ?Carbon $timer_end_at
+ * @property ?Carbon $timer_start_at
+ * @property int $gids
+ * @property int $po
+ * @property int $pg
+ * @property int $pw
+ * @property bool $only_admin
+ * @property bool $only_user
+ * @property bool $only_guest
+ * @property bool $allow_public
+ * @property int $status
+ * @property int $rank
+ * @property int $size
+ * @property ?array<string, mixed> $matrix
+ * @property ?int $x
+ * @property ?int $y
+ * @property ?int $z
+ * @property ?float $r
+ * @property ?float $theta
+ * @property ?float $rho
+ * @property ?float $phi
+ * @property ?float $elevation
+ * @property ?float $latitude
+ * @property ?float $longitude
+ * @property bool $active
+ * @property bool $canceled
+ * @property bool $closed
+ * @property bool $completed
+ * @property bool $cron
+ * @property bool $duplicate
+ * @property bool $featured
+ * @property bool $fixed
+ * @property bool $flagged
+ * @property bool $internal
+ * @property bool $locked
+ * @property bool $pending
+ * @property bool $planned
+ * @property bool $prioritized
+ * @property bool $problem
+ * @property bool $published
+ * @property bool $released
+ * @property bool $resolved
+ * @property bool $retired
+ * @property bool $suspended
+ * @property bool $unknown
+ * @property string $locale
+ * @property string $label
+ * @property string $title
+ * @property string $byline
+ * @property ?string $slug
+ * @property string $url
+ * @property string $description
+ * @property string $introduction
+ * @property ?string $content
+ * @property ?string $summary
+ * @property ?string $email
+ * @property ?string $phone
+ * @property string $icon
+ * @property string $image
+ * @property string $avatar
+ * @property ?array<string, mixed> $ui
+ * @property ?array<string, mixed> $address
+ * @property ?array<string, mixed> $assets
+ * @property ?array<string, mixed> $contact
+ * @property ?array<string, mixed> $meta
+ * @property ?array<int, array<string, mixed>> $notes
+ * @property ?array<string, mixed> $options
+ * @property ?array<string, mixed> $sources
  */
 class Setting extends Model
 {
@@ -188,7 +279,9 @@ class Setting extends Model
             'image' => 'string',
             'avatar' => 'string',
             'ui' => 'array',
+            'address' => 'array',
             'assets' => 'array',
+            'contact' => 'array',
             'meta' => 'array',
             'notes' => 'array',
             'options' => 'array',

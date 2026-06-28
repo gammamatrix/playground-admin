@@ -26,13 +26,13 @@ return new class extends Migration
 
             // IDs
 
+            $table->string('setting_type')->nullable()->index();
+            $table->string('setting_group')->nullable()->index();
             $table->uuid('created_by_id')->nullable()->index();
             $table->uuid('modified_by_id')->nullable()->index();
             $table->uuid('owned_by_id')->nullable()->index();
             $table->uuid('matrix_id')->nullable()->index();
             $table->uuid('parent_id')->nullable()->index();
-            $table->string('setting_type')->nullable()->index();
-            $table->string('setting_group')->nullable()->index();
 
             // Dates
 
@@ -112,7 +112,7 @@ return new class extends Migration
             $table->boolean('suspended')->default(0);
             $table->boolean('unknown')->default(0);
 
-            // Strings
+            // Columns
 
             $table->string('locale', 255)->default('');
             $table->string('label', 128)->default('');

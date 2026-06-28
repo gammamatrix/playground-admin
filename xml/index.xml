@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
-  <build time="Sat Jun 20 21:10:59 UTC 2026" phpunit="11.0.10" coverage="11.0.3">
+  <build time="Sun Jun 28 19:18:39 UTC 2026" phpunit="11.0.10" coverage="11.0.3">
     <runtime name="PHP" version="8.4.22" url="https://www.php.net/"/>
     <driver name="xdebug" version="3.5.3"/>
   </build>
@@ -16,7 +16,7 @@
     </tests>
     <directory name="/">
       <totals>
-        <lines total="400" comments="126" code="274" executable="86" executed="86" percent="100.00"/>
+        <lines total="500" comments="130" code="370" executable="120" executed="120" percent="100.00"/>
         <methods count="6" tested="6" percent="100.00"/>
         <functions count="0" tested="0" percent="0"/>
         <classes count="2" tested="2" percent="100.00"/>
@@ -24,7 +24,7 @@
       </totals>
       <directory name="Models">
         <totals>
-          <lines total="293" comments="102" code="191" executable="55" executed="55" percent="100.00"/>
+          <lines total="393" comments="106" code="287" executable="89" executed="89" percent="100.00"/>
           <methods count="1" tested="1" percent="100.00"/>
           <functions count="0" tested="0" percent="0"/>
           <classes count="1" tested="1" percent="100.00"/>
@@ -32,7 +32,7 @@
         </totals>
         <file name="Setting.php" href="Models/Setting.php.xml">
           <totals>
-            <lines total="293" comments="102" code="191" executable="55" executed="55" percent="100.00"/>
+            <lines total="393" comments="106" code="287" executable="89" executed="89" percent="100.00"/>
             <methods count="1" tested="1" percent="100.00"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="1" tested="1" percent="100.00"/>

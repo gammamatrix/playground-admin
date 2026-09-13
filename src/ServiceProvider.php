@@ -23,10 +23,8 @@ class ServiceProvider extends AuthServiceProvider
     /**
      * Bootstrap any package services.
      * Register any authentication / authorization services.
-     *
-     * @return void
      */
-    public function boot()
+    public function boot(): void
     {
         /**
          * @var array<string, mixed> $config

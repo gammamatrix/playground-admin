@@ -21,8 +21,8 @@ use Playground\Models\Model;
  * @property ?scalar $created_by_id
  * @property ?scalar $modified_by_id
  * @property ?scalar $owned_by_id
- * @property ?string $matrix_id
  * @property ?string $parent_id
+ * @property ?string $matrix_id
  * @property ?Carbon $created_at
  * @property ?Carbon $updated_at
  * @property ?Carbon $deleted_at
@@ -122,8 +122,8 @@ class Setting extends Model
         'created_by_id' => null,
         'modified_by_id' => null,
         'owned_by_id' => null,
-        'matrix_id' => null,
         'parent_id' => null,
+        'matrix_id' => null,
         'created_at' => null,
         'updated_at' => null,
         'deleted_at' => null,
@@ -216,8 +216,8 @@ class Setting extends Model
         'setting_type',
         'setting_group',
         'owned_by_id',
-        'matrix_id',
         'parent_id',
+        'matrix_id',
         'canceled_at',
         'closed_at',
         'embargo_at',

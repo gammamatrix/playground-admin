@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2026-06-28 19:18:39</timestamp>
+  <timestamp>2026-09-13 16:42:43</timestamp>
   <stats>
     <name>Method Crap Stats</name>
     <methodCount>6</methodCount>
@@ -26,8 +26,8 @@
       <package>Playground\Admin</package>
       <className>Playground\Admin\ServiceProvider</className>
       <methodName>boot</methodName>
-      <methodSignature>boot()</methodSignature>
-      <fullMethod>boot()</fullMethod>
+      <methodSignature>boot(): void</methodSignature>
+      <fullMethod>boot(): void</fullMethod>
       <crap>6</crap>
       <complexity>6</complexity>
       <coverage>100</coverage>

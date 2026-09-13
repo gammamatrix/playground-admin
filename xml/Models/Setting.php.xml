@@ -810,10 +810,10 @@
         <token name="T_DOC_COMMENT"> * @property ?scalar $owned_by_id</token>
       </line>
       <line no="24">
-        <token name="T_DOC_COMMENT"> * @property ?string $matrix_id</token>
+        <token name="T_DOC_COMMENT"> * @property ?string $parent_id</token>
       </line>
       <line no="25">
-        <token name="T_DOC_COMMENT"> * @property ?string $parent_id</token>
+        <token name="T_DOC_COMMENT"> * @property ?string $matrix_id</token>
       </line>
       <line no="26">
         <token name="T_DOC_COMMENT"> * @property ?Carbon $created_at</token>
@@ -1166,7 +1166,7 @@
       </line>
       <line no="125">
         <token name="T_WHITESPACE">        </token>
-        <token name="T_CONSTANT_ENCAPSED_STRING">'matrix_id'</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'parent_id'</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_DOUBLE_ARROW">=&gt;</token>
         <token name="T_WHITESPACE"> </token>
@@ -1175,7 +1175,7 @@
       </line>
       <line no="126">
         <token name="T_WHITESPACE">        </token>
-        <token name="T_CONSTANT_ENCAPSED_STRING">'parent_id'</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'matrix_id'</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_DOUBLE_ARROW">=&gt;</token>
         <token name="T_WHITESPACE"> </token>
@@ -1989,12 +1989,12 @@
       </line>
       <line no="219">
         <token name="T_WHITESPACE">        </token>
-        <token name="T_CONSTANT_ENCAPSED_STRING">'matrix_id'</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'parent_id'</token>
         <token name="T_COMMA">,</token>
       </line>
       <line no="220">
         <token name="T_WHITESPACE">        </token>
-        <token name="T_CONSTANT_ENCAPSED_STRING">'parent_id'</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'matrix_id'</token>
         <token name="T_COMMA">,</token>
       </line>
       <line no="221">
